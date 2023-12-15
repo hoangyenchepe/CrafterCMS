@@ -73,7 +73,7 @@ volumes:
     driver_opts:
       o: bind
       type: none
-      device: D:/Yen/Company/TPCrafterCMS/CrafterCMS/taikooplace
+      device: D:/Yen/Company/TPCrafterCMS/CrafterCMS/chepe
     name: crafter_authoring_data
   crafter_logs:
     name: crafter_authoring_logs
