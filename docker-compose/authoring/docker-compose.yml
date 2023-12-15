@@ -69,6 +69,11 @@ volumes:
   search_logs:
     name: crafter_authoring_logs_search
   crafter_data:
+    driver: local
+    driver_opts:
+      o: bind
+      type: none
+      device: D:/Yen/Company/TPCrafterCMS/CrafterCMS/taikooplace
     name: crafter_authoring_data
   crafter_logs:
     name: crafter_authoring_logs
